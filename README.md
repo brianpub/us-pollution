@@ -12,20 +12,27 @@ I included all the files in case you tried to run the aggregation code
 <p>Adjust the categories and dates as nessecary in the R file</p>
 
 
-#------  ECTL 
-#
-# Run in the following order depending on how raw you want the data
-#
-# pollution-data-download.r
-# pollution-data-aggregation.r
-# pollution-monthly-aggregation.r
-# pollution-data-cleaning-town.r
-#
-# city_data_all - all files by gas
-# merged - city_data_all + sites data
-# city_monthly_all - data aggregated into monthly data + sites data
-#
-# ------ Analysis 
-# pollution-analysis.r
-# pollution-analysis-monthly.r
-# pollution-timeseries.r
+<h4>ECTL Process</h4>
+
+<p>Downloads and converts EPA data into condensed csv files to be used with data analysis</p>
+
+Generates 3 types of files split out by gas :
+
+city_data_all - all files by gas
+merged - city_data_all + sites data
+city_monthly_all - data aggregated into monthly data + sites data
+
+
+ Run in the following order depending on how raw you want the data
+
+ pollution-data-download.r
+ pollution-data-aggregation.r
+ pollution-monthly-aggregation.r
+ pollution-data-cleaning-town.r
+
+ 
+
+ ------ Analysis 
+ pollution-analysis.r
+ pollution-analysis-monthly.r
+ pollution-timeseries.r
