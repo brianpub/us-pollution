@@ -18,21 +18,21 @@ I included all the files in case you tried to run the aggregation code
 
 Generates 3 types of files split out by gas :
 
-city_data_all - all files by gas
-merged - city_data_all + sites data
-city_monthly_all - data aggregated into monthly data + sites data
+city_data_all - all files by gas <br/>
+merged - city_data_all + sites data<br/>
+city_monthly_all - data aggregated into monthly data + sites data<br/>
 
 
  Run in the following order depending on how raw you want the data
 
- pollution-data-download.r
- pollution-data-aggregation.r
- pollution-monthly-aggregation.r
- pollution-data-cleaning-town.r
+ pollution-data-download.r<br/>
+ pollution-data-aggregation.r<br/>
+ pollution-monthly-aggregation.r<br/>
+ pollution-data-cleaning-town.r<br/>
 
  
 
- ------ Analysis 
- pollution-analysis.r
- pollution-analysis-monthly.r
- pollution-timeseries.r
+ ------ Analysis <br/>
+ pollution-analysis.r<br/>
+ pollution-analysis-monthly.r<br/>
+ pollution-timeseries.r<br/>
